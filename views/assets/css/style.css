@@ -1,0 +1,656 @@
+/* Remove this css on devlopment start */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* Remove this css on devlopment end */
+
+
+
+.ils_setup_section * {
+
+    text-decoration: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.alert-error {
+
+    color: red;
+
+}
+
+
+
+.ils_setup_section .container {
+
+    max-width: 1170px;
+
+    width: 100%;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+
+}
+
+
+
+/* start setup section */
+
+.ils_setup_section {
+
+    background-image: url(../image/login-background.svg);
+
+    padding: 80px 0;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: left;
+
+    background-color: #fff;
+
+    min-height: calc(100vh - 100px);
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+.ils_setup_section .main_ils_setup {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    padding-top: 70px;
+
+}
+
+
+
+.ils_setup_section .left_ils_setup {
+
+    max-width: 50%;
+
+    width: 100%;
+
+    padding-right: 100px;
+
+}
+
+
+
+.ils_setup_section .left_ils_setup .ils_logo a {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    max-width: fit-content;
+
+}
+
+
+
+.ils_setup_section .left_ils_setup .ils_logo a img {
+
+    max-height: 60px;
+    max-width: unset;
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+.ils_setup_section .left_ils_setup .ils_logo a span {
+
+    font-weight: 500;
+
+    font-size: 20px;
+
+    line-height: 26px;
+
+    color: #434343;
+
+    padding-left: 10px;
+
+}
+
+
+
+.ils_setup_section .left_ils_setup .left_setup_content h2 {
+
+    font-weight: 300;
+
+    font-size: 38px;
+
+    line-height: 52px;
+
+    color: #054634;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup {
+
+    max-width: calc(50% - 30px);
+
+    width: 100%;
+
+    margin-left: auto;
+
+    padding-left: 10px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet h2 {
+
+    font-weight: 400;
+
+    font-size: 24px;
+
+    line-height: 33px;
+
+    color: #263238;
+
+    padding-bottom: 40px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet h3 {
+
+    font-weight: 400;
+
+    font-size: 20px;
+
+    line-height: 30px;
+
+    color: #263238;
+
+    padding-bottom: 15px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet ul li a {
+
+    text-decoration: underline;
+
+    color: rgb(32, 34, 35);
+
+}
+
+
+
+.ils-btn {
+
+    font-size: 14px;
+
+    line-height: 16px;
+
+    font-weight: 500;
+
+    color: #fff;
+
+    background-color: #008060;
+
+    border: none;
+
+    font-family: inter;
+
+    padding: 10px 16px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+    display: block;
+
+    width: fit-content;
+
+}
+
+
+
+.ils-btn:hover {
+
+    background-color: #006e52;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet p.or {
+
+    margin: 50px 0 15px;
+
+    font-size: 19px;
+
+    line-height: 25px;
+
+    color: #263238;
+
+    font-weight: 500;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet input {
+
+    font-weight: 400;
+
+    font-size: 13px;
+
+    line-height: 18px;
+
+    color: #434343;
+
+    width: 100%;
+
+    font-family: inter;
+
+    padding: 8px 10px;
+
+    border-radius: 7px;
+
+    border: 1px solid #7e7e7e;
+
+    min-height: unset;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet input:focus-visible {
+
+    outline: unset;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .setup_input button {
+
+    margin-top: 15px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .setup_input .setup_connect_btn {
+
+    width: 100%;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet .success_icon {
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet .success_icon svg {
+
+    display: block;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .connect_account_txt h2 {
+
+    padding-bottom: 25px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .connect_account_txt ul {
+
+    list-style: none;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .connect_account_txt ul li {
+
+    padding-bottom: 8px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .connect_account_txt ul li p {
+
+    font-size: 14px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet .integration-step {
+
+    list-style: decimal;
+
+    padding-left: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.ils_setup_section .right_ils_setup .ils_setup_contnet .integration-step li {
+
+    padding-bottom: 6px;
+
+}
+
+
+
+.ils_setup_section .ils_review p {
+
+    padding-bottom: 15px;
+
+    color: #008060;
+
+}
+
+
+
+.left_setup_content img {
+
+    display: block;
+
+}
+
+
+
+/* end setup section */
+
+
+
+
+
+/* start responsive */
+
+@media only screen and (max-width: 1150px) {
+
+
+
+    .ils_setup_section .main_ils_setup {
+
+        padding-top: 20px;
+
+    }
+
+
+
+    .ils_setup_section .left_ils_setup {
+
+        padding-right: 50px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup {
+
+        padding-left: unset;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    .ils_setup_section .left_ils_setup .left_setup_content h2 {
+
+        font-size: 29px;
+
+        line-height: 40px;
+
+    }
+
+
+
+    .ils_setup_section .left_ils_setup {
+
+        padding-right: 40px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet h2 {
+
+        font-size: 20px;
+
+        line-height: 31px;
+
+        padding-bottom: 20px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet h3 {
+
+        font-size: 17px;
+
+        line-height: 26px;
+
+    }
+
+
+
+    .ils-btn {
+
+        font-size: 14px;
+
+        line-height: 16px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet p.or {
+
+        margin: 30px 0 15px;
+
+        font-size: 15px;
+
+        line-height: 20px;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:782px) {
+
+    #wpbody-content {
+
+        padding-bottom: 0 !important;
+
+    }
+
+    .auto-fold #wpcontent {
+
+        padding-left: 0 !important;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .ils_setup_section .ils_setup_section {
+
+        padding: 50px 0;
+
+    }
+
+
+
+    .ils_setup_section .left_ils_setup {
+
+        max-width: 100%;
+
+        padding-right: unset;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup {
+
+        max-width: 100%;
+
+        margin-left: unset;
+
+        padding-top: 30px;
+
+    }
+
+
+
+    .ils_setup_section .left_ils_setup .ils_logo a {
+
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .ils_setup_section .left_ils_setup .left_setup_content h2 {
+
+        font-size: 24px;
+
+        line-height: 30px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet .success_icon svg {
+
+        width: 40px;
+
+        height: 40px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet .success_icon {
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+    .ils_setup_section {
+
+        padding: 40px 0;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet h2 {
+
+        font-size: 18px;
+
+        line-height: 24px;
+
+        padding-bottom: 15px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet h3 {
+
+        font-size: 16px;
+
+        line-height: 22px;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+
+    .ils_setup_section .left_ils_setup .ils_logo a span {
+
+        font-size: 16px;
+
+        line-height: 20px;
+
+        padding-left: 5px;
+
+    }
+
+
+
+    .ils_setup_section .right_ils_setup .ils_setup_contnet input {
+
+        max-width: 100%;
+
+    }
+
+}
+
+
+
+/* end responsive */
